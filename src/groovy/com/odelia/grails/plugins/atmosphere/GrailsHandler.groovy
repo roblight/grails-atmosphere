@@ -8,7 +8,7 @@ import org.atmosphere.cpr.AtmosphereResource
 import org.atmosphere.cpr.AtmosphereResourceEvent
 
 
-class GrailsHandler implements AtmosphereHandler<HttpServletRequest, HttpServletResponse> {
+class GrailsHandler implements AtmosphereHandler {
 	
     def targetService
     def servletContext    
